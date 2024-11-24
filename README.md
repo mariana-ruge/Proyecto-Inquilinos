@@ -36,7 +36,9 @@
 
 2.  Revisa que se hayan clonado bien los archivos descritos en la **Estructura del Proyecto.**
 3. Abre tu terminal (powershell o linux) y ejecuta este comando
+
 		 streamlit run 'ruta al app.py'
+         
 4. Esto comenzará a cargar el proyecto en streamlit te mostrará el puerto que esta usando y la url donde puedes ver la ejecución.
 5. **Por el momento el proyecto recibe los inquilinos con un ID no con cadenas de texto, por la estructura del DataFrame que recibe como paramétro para hacer la visualización**
 6. Mostrará una tabla con la compatibilidad y una gráfica para tomar mejores desiciones de a quien se va a asignar la habitación.
