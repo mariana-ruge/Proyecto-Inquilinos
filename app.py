@@ -11,8 +11,6 @@ st.set_page_config(layout="wide")
 resultado = None  # Asegurarse de que 'resultado' se inicializa como None
 
 # Mostrar la portada
-#Ajustar al tamaño de la página
-st.image(r'./habitaciones.png', use_container_width=True)
 
 # Insertar un espacio vertical de 60px para mejorar la estética
 st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
