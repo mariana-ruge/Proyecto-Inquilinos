@@ -12,7 +12,7 @@ resultado = None  # Asegurarse de que 'resultado' se inicializa como None
 
 # Mostrar la portada
 #Ajustar al tamaño de la página
-st.image(r'C:\Users\maria\OneDrive\Escritorio\Códigos\Habitaciones-inquilinos\habitaciones.png', use_container_width=True)
+st.image(r'./habitaciones.png', use_container_width=True)
 
 # Insertar un espacio vertical de 60px para mejorar la estética
 st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
